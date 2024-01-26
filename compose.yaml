@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  media-cleaner:
+    build: 
+      context: .
+    environment:
+      SONARR_URL: "your_sonarr_url"
+      RADARR_URL: "your_radarr_url"
+      SONARR_API_KEY: "your_sonarr_api_key"
+      RADARR_API_KEY: "your_radarr_api_key"
+      API_TIMEOUT: "600"  # 10 minutes in seconds
+    restart: unless-stopped
