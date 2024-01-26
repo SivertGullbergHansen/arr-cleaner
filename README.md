@@ -18,7 +18,7 @@ To get started with ***Arr Cleaner**, follow these steps:
 
 1. Clone this repository to your local machine.
 
-2. Clone `example.env` in to a new file called `.env` and edit its contents.
+2. Copy `example.env` in to a new file called `.env` and edit its contents.
 
 ### (option 1): Using Docker:
 
