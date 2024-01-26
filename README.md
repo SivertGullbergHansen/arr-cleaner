@@ -25,7 +25,7 @@ To get started with ***Arr Cleaner**, follow these steps:
 3. Start a docker container:
 
 ```sh
-docker-compose up --build
+docker-compose up -d --build
 ```
 
 ### (option 2): Run directly using python:
