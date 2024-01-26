@@ -35,6 +35,11 @@ docker-compose up -d --build
 python main.py
 ```
 
+## Installing updates
+
+1. Run `git pull` in the root folder
+2. Use whatever method you used to start the script from the previous section
+
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
