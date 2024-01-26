@@ -20,7 +20,7 @@ To get started with ***Arr Cleaner**, follow these steps:
 
 ### (option 1): Using Docker:
 
-2. edit the docker compose file and make sure to replace "your_sonarr_url", "your_radarr_url", "your_sonarr_api_key", and "your_radarr_api_key" with your actual Sonarr and Radarr URLs and API keys. (See example values below in the python guide)
+2. edit the `compose.yaml` file and make sure to replace "your_sonarr_url", "your_radarr_url", "your_sonarr_api_key", and "your_radarr_api_key" with your actual Sonarr and Radarr URLs and API keys. (See example values below in the python guide)
 
 3. Start a docker container:
 
