@@ -2,6 +2,7 @@ version: '3.7'
 
 services:
   arr-cleaner:
+    container_name: arr-cleaner
     build: 
       context: .
     environment:
