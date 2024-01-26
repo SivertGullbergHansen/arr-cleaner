@@ -7,9 +7,9 @@ services:
     build:
       context: .
     environment:
-      SONARR_URL: "your_sonarr_url"
-      RADARR_URL: "your_radarr_url"
-      SONARR_API_KEY: "your_sonarr_api_key"
-      RADARR_API_KEY: "your_radarr_api_key"
-      API_TIMEOUT: "3600"  # 60 minutes in seconds
+      SONARR_URL: ${SONARR_URL}
+      RADARR_URL: ${RADARR_URL}
+      SONARR_API_KEY: ${SONARR_API_KEY}
+      RADARR_API_KEY: ${RADARR_API_KEY}
+      API_TIMEOUT: ${API_TIMEOUT}
     restart: unless-stopped
