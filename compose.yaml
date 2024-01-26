@@ -6,6 +6,8 @@ services:
     image: sivert/arr-cleaner
     build:
       context: .
+    env_file:
+      - .env
     environment:
       SONARR_URL: ${SONARR_URL}
       RADARR_URL: ${RADARR_URL}
