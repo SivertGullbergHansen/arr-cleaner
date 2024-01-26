@@ -3,7 +3,8 @@ version: '3.7'
 services:
   arr-cleaner:
     container_name: arr-cleaner
-    build: 
+    image: sivert/arr-cleaner
+    build:
       context: .
     environment:
       SONARR_URL: "your_sonarr_url"
