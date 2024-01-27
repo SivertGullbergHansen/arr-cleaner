@@ -1,4 +1,4 @@
-# *Arr Cleaner
+# 🧹 *Arr Cleaner
 
 *Arr Cleaner is a Python script designed to clean stalled downloads in Sonarr and Radarr. 
 It periodically checks the download queue for stalled items and removes them using CRUD requests.
